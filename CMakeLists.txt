@@ -9,6 +9,11 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 # Initialise pico_sdk from installed location
 # (note this can come from environment, CMake cache etc)
 
+# Inicializa o Pico SDK
+set(PICO_SDK_PATH "${USERHOME}/.pico-sdk")
+include(${PICO_SDK_PATH}/pico_sdk_init.cmake)
+pico_sdk_init()
+
 # == DO NOT EDIT THE FOLLOWING LINES for the Raspberry Pi Pico VS Code Extension to work ==
 if(WIN32)
     set(USERHOME $ENV{USERPROFILE})
