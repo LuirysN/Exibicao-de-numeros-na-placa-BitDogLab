@@ -14,5 +14,8 @@ Este projeto demonstra o uso de interrupções, debouncing e controle de LEDs no
     - Matriz 5x5 de LEDs WS2812 (GPIO 7).
     - LED RGB (GPIOs 11, 12, 13).
     - Botão A (GPIO 5) e Botão B (GPIO 6).
+## Vídeo da simulação
+
+https://drive.google.com/file/d/1B-CvA_MMH9g8cge5faFt_GY8_G2Ou8lg/view?usp=sharing
 
 ## Autor: Luirys do Nascimento Silva.
