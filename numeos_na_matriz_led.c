@@ -1,10 +1,12 @@
+//ATIVIDADE DE INTERRUPÇÕES UNIDADE 04, CAPITULO 04
+//ALUNO: LUIRYS DO NASCIMENTO SILVA
+
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "hardware/pio.h"
 #include "hardware/clocks.h"
 #include "hardware/gpio.h"
 #include <stdint.h>
-
 #include "ws2812b.pio.h"
 
 #define LED_COUNT 25
